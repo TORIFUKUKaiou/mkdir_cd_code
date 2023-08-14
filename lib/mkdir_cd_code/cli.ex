@@ -1,4 +1,5 @@
 defmodule MkdirCdCode.CLI do
+  @spec main(nonempty_maybe_improper_list) :: nil | {any, non_neg_integer}
   def main(args) do
     [dir | _] = args
     :ok = File.mkdir_p(dir)
