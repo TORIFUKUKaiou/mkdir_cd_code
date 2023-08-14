@@ -1,21 +1,28 @@
 # MkdirCdCode
 
-**TODO: Add description**
+This project is a CLI application.  
+
+After creating a directory with mkdir, open the newly created directory in a newly launched terminal and open it in Visual Studio Code.  
+
+Operation has been confirmed only on macOS Ventura 13.5.  
+
+See below for how to enable the code command.  
+
+[Launching from the command line](https://code.visualstudio.com/docs/setup/mac#_launching-from-the-command-line)
 
 ## Installation
 
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `mkdir_cd_code` to your list of dependencies in `mix.exs`:
-
-```elixir
-def deps do
-  [
-    {:mkdir_cd_code, "~> 0.1.0"}
-  ]
-end
+```bash
+mix escript.install github TORIFUKUKaiou/mkdir_cd_code
 ```
 
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at <https://hexdocs.pm/mkdir_cd_code>.
+You can also run `mkdir_cd_code`` from the terminal by typing 'mkdir_cd_code' after adding it to the path.  
+You can find out where it was installed with the `mix escript` command.  
+
+## Usage
+
+```bash
+mkdir_cd_code awesome
+```
+
 
