@@ -16,13 +16,20 @@ See below for how to enable the code command.
 mix escript.install github TORIFUKUKaiou/mkdir_cd_code
 ```
 
-You can also run `mkdir_cd_code`` from the terminal by typing 'mkdir_cd_code' after adding it to the path.  
+You can also run `mkdir_cd_code` from the terminal by typing 'mkdir_cd_code' after adding it to the path.  
 You can find out where it was installed with the `mix escript` command.  
+
+You should add `mkcdcode()` function to `~/.zshrc`.
+
+
+```:~/.zshrc
+mkcdcode() {
+    cd $($HOME/path/to/mkdir_cd_code $1)
+}
+```
 
 ## Usage
 
 ```bash
-mkdir_cd_code awesome
+mkcdcode awesome
 ```
-
-
