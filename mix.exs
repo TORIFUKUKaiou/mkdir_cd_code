@@ -1,14 +1,14 @@
-defmodule Mkdircd.MixProject do
+defmodule MkdirCdCode.MixProject do
   use Mix.Project
 
   def project do
     [
-      app: :mkdircd,
+      app: :mkdir_cd_code,
       version: "0.1.0",
       elixir: "~> 1.15",
       start_permanent: Mix.env() == :prod,
       deps: deps(),
-      escript: [main_module: Mkdircd.CLI]
+      escript: [main_module: MkdirCdCode.CLI]
     ]
   end
 

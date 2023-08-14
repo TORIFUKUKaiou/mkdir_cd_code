@@ -20,10 +20,10 @@ erl_crash.dump
 *.ez
 
 # Ignore package tarball (built via "mix hex.build").
-mkdircd-*.tar
+mkdir_cd_code-*.tar
 
 # Temporary files, for example, from tests.
 /tmp/
 
-/mkdircd
+/mkdir_cd_code
 .DS_Store

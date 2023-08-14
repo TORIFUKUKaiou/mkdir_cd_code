@@ -1,4 +1,4 @@
-defmodule Mkdircd.CLI do
+defmodule MkdirCdCode.CLI do
   def main(args) do
     [dir | _] = args
     :ok = File.mkdir_p(dir)

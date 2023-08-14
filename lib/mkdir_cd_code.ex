@@ -1,6 +1,6 @@
-defmodule Mkdircd do
+defmodule MkdirCdCode do
   @moduledoc """
-  Documentation for `Mkdircd`.
+  Documentation for `MkdirCdCode`.
   """
 
   @doc """
@@ -8,7 +8,7 @@ defmodule Mkdircd do
 
   ## Examples
 
-      iex> Mkdircd.hello()
+      iex> MkdirCdCode.hello()
       :world
 
   """
