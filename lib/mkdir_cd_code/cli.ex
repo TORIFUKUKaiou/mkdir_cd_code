@@ -1,7 +1,8 @@
 defmodule MkdirCdCode.CLI do
   @spec main(maybe_improper_list) :: nil | :ok | {any, non_neg_integer}
   def main([]) do
-    IO.puts("Usage: mkdir_cd_code dir_name")
+    IO.puts(:stderr, "Usage: mkdir_cd_code dir_name")
+    IO.puts(".")
   end
 
   def main(args) do
